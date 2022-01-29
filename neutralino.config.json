@@ -6,6 +6,9 @@
   "url": "/",
   "enableServer": true,
   "enableNativeAPI": true,
+  "nativeAllowList": [
+    "app.*"
+  ],
   "modes": {
     "window": {
       "title": "Hello Neutralinojs",
